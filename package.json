@@ -1,0 +1,41 @@
+{
+  "name": "blog2",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Franz <franz.sittampalam@asos.com>",
+  "homepage": "https://github.com/shedali/shedali#readme",
+  "license": "ISC",
+  "main": "lib/blog2.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shedali/shedali.git"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "bugs": {
+    "url": "https://github.com/shedali/shedali/issues"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "next": "^7.0.2",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-markdown": "^4.0.6",
+    "react-player": "^1.6.6",
+    "remark": "^10.0.1",
+    "remark-react": "^5.0.1"
+  },
+  "devDependencies": {}
+}
